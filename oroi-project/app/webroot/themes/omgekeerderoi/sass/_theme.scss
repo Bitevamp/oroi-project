@@ -1,0 +1,78 @@
+/* Header */
+.header-wrapper {
+    margin: 0;
+    padding: 20px 0 0;
+
+    background: $blue;
+
+    .logo {
+        display: block;
+
+        color: $white;
+        text-align: center;
+    }
+}
+
+/* Content */
+.content-wrapper {
+    display: block;
+
+    margin: 0;
+    padding: 40px 0;
+
+    background: $grey;
+
+    .form-block {
+        margin: 0;
+        padding: 20px;
+
+        background: $white;
+
+        -webkit-border-radius: $radius;
+           -moz-border-radius: $radius;
+                border-radius: $radius;
+
+        -webkit-box-shadow: $shadow;
+           -moz-box-shadow: $shadow;
+                box-shadow: $shadow;
+    }
+}
+
+/* Footer */
+.footer-wrapper {
+    display: block;
+
+    margin: 0;
+    padding: 20px 0;
+
+    background: $blue;
+
+    span.copyright {
+        display: block;
+
+        width: 100%;
+
+        color: $white;
+        text-align: center;
+    }
+}
+
+/* Bootstrap Overwrites */
+.form-group {
+    label {
+        width: 100%;
+
+        margin: 0 0 15px;
+        padding: 6px 0;
+    }
+    .checkbox {
+        margin-top: -5px;
+        label {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+    }
+    .multyple {
+        margin: 0 0 15px;
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Arjen",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "twbs/bootstrap-sass",
+                "type": "component",
+                "version": "3.3.6",
+                 "dist": {
+                    "url": "https://github.com/twbs/bootstrap-sass/archive/v3.3.6.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "https://github.com/twbs/bootstrap-sass.git",
+                    "type": "git",
+                    "reference": "3.3.6"
+                },
+                "extra": {
+                    "component": {
+                        "files": [
+                            "assets/fonts/bootstrap/*",
+                            "assets/fonts/*",
+                            "assets/images/*",
+                            "assets/javascripts/*",
+                            "assets/stylesheets/bootstrap/*",
+                            "assets/stylesheets/bootstrap/mixins/*",
+                            "assets/stylesheets/*"
+                        ]
+                    }
+                },
+                "require": {
+                    "robloach/component-installer": "*"
+                }
+            }
+        }
+    ],
+    "config": {
+        "component-dir": "app/webroot/components",
+        "component-baseurl": "/components"
+    },
+    "require": {
+        "components/jquery": "2.1.*",
+        "components/jqueryui": "1.11.*",
+        "components/font-awesome": "4.1.*",
+        "twbs/bootstrap-sass": "3.3.*"
+    }
+}
